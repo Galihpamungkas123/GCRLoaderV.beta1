@@ -1,0 +1,46 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("GCRLoaderV.1", "Sentinel")
+
+local Tab = Window:NewTab("Universal Infiniteyield")
+local Section = Tab:NewSection("Test")
+
+Section:NewLabel("Test")
+
+
+Section:NewButton("infinite-yield", "OG", function()
+loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Infinite%20Yield.lua"))()
+end)
+
+local Tab = Window:NewTab("BloxFruit")
+local Section = Tab:NewSection("Test")
+
+Section:NewLabel("Test")
+
+
+Section:NewButton("XeterHub", "OG", function()
+getgenv().Version = "V1" getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+end)
+
+Section:NewButton("Graphich menu", "OG", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6148a228aa218018a2d6ed358f16add3.lua"))()
+end)
+
+local Tab = Window:NewTab("Fps Booster")
+local Section = Tab:NewSection("Test")
+
+Section:NewLabel("Test")
+
+
+Section:NewButton("Graphich menu", "OG", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Graphic-menu-42111"))()
+end)
+
+local Tab = Window:NewTab("Pizza's")
+local Section = Tab:NewSection("Test")
+
+Section:NewLabel("Test")
+
+
+Section:NewButton("infinite-yield", "OG", function()
+loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Infinite%20Yield.lua"))()
+end)
