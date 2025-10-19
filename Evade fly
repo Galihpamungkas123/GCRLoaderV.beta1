@@ -1,0 +1,11 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("GCRLoaderV.1", "Sentinel")
+
+local Tab = Window:NewTab("flying")
+local Section = Tab:NewSection("Test")
+
+Section:NewLabel("Test")
+
+Section:NewButton("Fly", "OG", function()
+loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Fly.lua"))()
+end)
